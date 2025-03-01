@@ -1,5 +1,5 @@
-import datetime
 import ast
+import datetime
 
 # Configuration for the Sphinx documentation builder.
 # All configuration specific to your project should be done in this file.
@@ -23,7 +23,7 @@ import ast
 #
 # TODO: Update with the official name of your project or product
 
-project = "Documentation starter pack"
+project = "Edge-AI"
 author = "Canonical Ltd."
 
 
@@ -135,11 +135,9 @@ html_context = {
     # Docs branch in the repo; used in links for viewing the source files
     #
     # TODO: To customise the branch, uncomment and update as needed.
-    'github_version': 'main',
+    "github_version": "main",
     # Docs location in the repo; used in links for viewing the source files
     #
-
-
     # TODO: To customise the directory, uncomment and update as needed.
     "github_folder": "/docs/",
     # TODO: To enable or disable the Previous / Next buttons at the bottom of pages
@@ -147,9 +145,8 @@ html_context = {
     # "sequential_nav": "both",
     # TODO: To enable listing contributors on individual pages, set to True
     "display_contributors": False,
-
-    # Required for feedback button    
-    'github_issues': 'enabled',
+    # Required for feedback button
+    "github_issues": "enabled",
 }
 
 # Project slug; see https://meta.discourse.org/t/what-is-category-slug/87897
@@ -190,10 +187,7 @@ redirects = {}
 #
 # TODO: Remove or adjust the ACME entry after you update the contributing guide
 
-linkcheck_ignore = [
-    "http://127.0.0.1:8000",
-    "https://github.com/canonical/ACME/*"
-    ]
+linkcheck_ignore = ["http://127.0.0.1:8000", "https://github.com/canonical/ACME/*"]
 
 
 # A regex list of URLs where anchors are ignored by 'make linkcheck'
